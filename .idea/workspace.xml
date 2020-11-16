@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9585db8a-6d50-4145-a01e-38bc8fc3222d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/json/struct_field_json/struct_field_json.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/json/json_to_slice/json_to_slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/json/json_to_struct/json_to_struct.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/map_to_json/map_to_json.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/map_to_json/map_to_json.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/struct_to_json/struct_to_json.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/struct_to_json/struct_to_json.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +57,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/http" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -68,20 +68,20 @@
       <recent name="$PROJECT_DIR$/src/http" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build struct_field_json.go">
-    <configuration name="go build file_server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build json_to_slice.go">
+    <configuration name="go build anonymous_field.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/http/file_server/file_server.go" />
+      <filePath value="$PROJECT_DIR$/src/json/anonymous_field/anonymous_field.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build handle_function.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build json_to_slice.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/http/handle_function/handle_function.go" />
+      <filePath value="$PROJECT_DIR$/src/json/json_to_slice/json_to_slice.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build json_to_slice.go" />
+        <item itemvalue="Go Build.go build anonymous_field.go" />
         <item itemvalue="Go Build.go build struct_field_json.go" />
         <item itemvalue="Go Build.go build map_to_json.go" />
         <item itemvalue="Go Build.go build struct_to_json.go" />
-        <item itemvalue="Go Build.go build file_server.go" />
-        <item itemvalue="Go Build.go build handle_function.go" />
       </list>
     </recent_temporary>
   </component>
@@ -144,22 +144,26 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="695" y="257" key="EnvironmentVariablesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605104735317" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1605495101201">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1605506878533">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605495101201" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1605495101200">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605506878533" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1605506878532">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605495101200" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1605495101199">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605506878532" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1605506878531">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605495101199" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1605495101200">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605506878531" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1605506878532">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605495101200" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605506878532" />
+    <state x="349" y="161" key="SettingsEditor" timestamp="1605498382034">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="349" y="161" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1605498382034" />
     <state x="538" y="251" width="604" height="548" key="find.popup" timestamp="1605102680617">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
