@@ -20,12 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9585db8a-6d50-4145-a01e-38bc8fc3222d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/http/file_server/file_server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/http/handle_function/handle_function.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/http/http_get/http_get.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/http/http_post/http_post.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/json/struct_field_json/struct_field_json.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/http/client_post/client_post.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/http/client_post/client_post.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/map_to_json/map_to_json.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/map_to_json/map_to_json.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/struct_to_json/struct_to_json.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/struct_to_json/struct_to_json.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,7 @@
       <recent name="$PROJECT_DIR$/src/http" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build file_server.go">
+  <component name="RunManager" selected="Go Build.go build struct_field_json.go">
     <configuration name="go build file_server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -87,37 +85,37 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build http_get.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build map_to_json.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/http/http_get/http_get.go" />
+      <filePath value="$PROJECT_DIR$/src/json/map_to_json/map_to_json.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build http_post.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build struct_field_json.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/http/http_post/http_post.go" />
+      <filePath value="$PROJECT_DIR$/src/json/struct_field_json/struct_field_json.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build listen_and_server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build struct_to_json.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/http/listen_and_server/listen_and_server.go" />
+      <filePath value="$PROJECT_DIR$/src/json/struct_to_json/struct_to_json.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build struct_field_json.go" />
+        <item itemvalue="Go Build.go build map_to_json.go" />
+        <item itemvalue="Go Build.go build struct_to_json.go" />
         <item itemvalue="Go Build.go build file_server.go" />
         <item itemvalue="Go Build.go build handle_function.go" />
-        <item itemvalue="Go Build.go build listen_and_server.go" />
-        <item itemvalue="Go Build.go build http_post.go" />
-        <item itemvalue="Go Build.go build http_get.go" />
       </list>
     </recent_temporary>
   </component>
@@ -146,22 +144,22 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="695" y="257" key="EnvironmentVariablesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605104735317" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1605194524752">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1605495101201">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605194524752" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1605194524751">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605495101201" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1605495101200">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605194524751" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1605194524750">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605495101200" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1605495101199">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605194524750" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1605194524752">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605495101199" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1605495101200">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605194524752" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605495101200" />
     <state x="538" y="251" width="604" height="548" key="find.popup" timestamp="1605102680617">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
