@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9585db8a-6d50-4145-a01e-38bc8fc3222d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/slice/slice_append/slice_append.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slice/slice_append_copy/slice_append_copy.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slice/slice_declare/slice_declare.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slice/slice_value/slice_value.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/map_declare/map_declare.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,20 +67,12 @@
       <recent name="$PROJECT_DIR$/src/http" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build slice_append_copy.go">
-    <configuration name="go build array_value.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build map_declare.go">
+    <configuration name="go build map_declare.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/array/array_value/array_value.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build multi_array.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/array/multi_array/multi_array.go" />
+      <filePath value="$PROJECT_DIR$/src/map/map_declare/map_declare.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -92,6 +81,14 @@
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/src/slice/slice_append_copy/slice_append_copy.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build slice_append.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/slice/slice_append/slice_append.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -113,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build map_declare.go" />
+        <item itemvalue="Go Build.go build slice_append.go" />
         <item itemvalue="Go Build.go build slice_append_copy.go" />
         <item itemvalue="Go Build.go build slice_value.go" />
         <item itemvalue="Go Build.go build slice_declare.go" />
-        <item itemvalue="Go Build.go build array_value.go" />
-        <item itemvalue="Go Build.go build multi_array.go" />
       </list>
     </recent_temporary>
   </component>
@@ -146,22 +143,22 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="695" y="257" key="EnvironmentVariablesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605104735317" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1605517777729">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1605521682466">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605517777729" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1605517777728">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605521682466" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1605521682465">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605517777728" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1605517777727">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605521682465" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1605521682464">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605517777727" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1605517777728">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605521682464" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1605521682465">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605517777728" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605521682465" />
     <state x="349" y="161" key="SettingsEditor" timestamp="1605498382034">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
