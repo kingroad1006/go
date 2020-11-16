@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9585db8a-6d50-4145-a01e-38bc8fc3222d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/json/json_to_slice/json_to_slice.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/json/json_to_struct/json_to_struct.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/array_len/array_len.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/array_loop/array_loop.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/array_value/array_value.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/multi_array/multi_array.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,54 +70,54 @@
       <recent name="$PROJECT_DIR$/src/http" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build json_to_slice.go">
-    <configuration name="go build anonymous_field.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build array_value.go">
+    <configuration name="go build array_len.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/json/anonymous_field/anonymous_field.go" />
+      <filePath value="$PROJECT_DIR$/src/array/array_len/array_len.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build json_to_slice.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build array_loop.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/json/json_to_slice/json_to_slice.go" />
+      <filePath value="$PROJECT_DIR$/src/array/array_loop/array_loop.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build map_to_json.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build array_value.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/json/map_to_json/map_to_json.go" />
+      <filePath value="$PROJECT_DIR$/src/array/array_value/array_value.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build struct_field_json.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build json_to_struct.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/json/struct_field_json/struct_field_json.go" />
+      <filePath value="$PROJECT_DIR$/src/json/json_to_struct/json_to_struct.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build struct_to_json.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build multi_array.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/json/struct_to_json/struct_to_json.go" />
+      <filePath value="$PROJECT_DIR$/src/array/multi_array/multi_array.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build json_to_slice.go" />
-        <item itemvalue="Go Build.go build anonymous_field.go" />
-        <item itemvalue="Go Build.go build struct_field_json.go" />
-        <item itemvalue="Go Build.go build map_to_json.go" />
-        <item itemvalue="Go Build.go build struct_to_json.go" />
+        <item itemvalue="Go Build.go build array_value.go" />
+        <item itemvalue="Go Build.go build multi_array.go" />
+        <item itemvalue="Go Build.go build array_loop.go" />
+        <item itemvalue="Go Build.go build array_len.go" />
+        <item itemvalue="Go Build.go build json_to_struct.go" />
       </list>
     </recent_temporary>
   </component>
@@ -144,22 +146,22 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="695" y="257" key="EnvironmentVariablesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605104735317" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1605506878533">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1605510375472">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605506878533" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1605506878532">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605510375472" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1605510375471">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605506878532" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1605506878531">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605510375471" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1605510375470">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605506878531" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1605506878532">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605510375470" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1605510375471">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605506878532" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605510375471" />
     <state x="349" y="161" key="SettingsEditor" timestamp="1605498382034">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
