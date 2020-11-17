@@ -20,14 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9585db8a-6d50-4145-a01e-38bc8fc3222d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/strconv/strconv_format/strconv_format.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strconv/strconv_parse/strconv_parse.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/string_compare/string_compare.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/string_loop/string_loop.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/string_retrieve/string_retrieve.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/string_split/string_split.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/string_trim/string_trim.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/string_upper_lower/string_upper_lower.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scanln/scanln.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/time/time_format/time_format.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +57,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/http" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -150,26 +144,26 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="695" y="257" key="EnvironmentVariablesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605104735317" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1605607614121">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1605607856389">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605607614121" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1605607614120">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605607856389" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1605607856388">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605607614120" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1605607614120">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605607856388" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1605607856387">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605607614120" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1605607614121">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605607856387" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1605607856389">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605607614121" />
-    <state x="349" y="161" key="SettingsEditor" timestamp="1605498382034">
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605607856389" />
+    <state x="349" y="161" key="SettingsEditor" timestamp="1605608122132">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="349" y="161" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1605498382034" />
+    <state x="349" y="161" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1605608122132" />
     <state x="538" y="251" width="604" height="548" key="find.popup" timestamp="1605102680617">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
