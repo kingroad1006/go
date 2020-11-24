@@ -20,8 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9585db8a-6d50-4145-a01e-38bc8fc3222d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scanln/scanln.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time_format/time_format.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/struct/struct_anonymous/struct_anonymous.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/struct/struct_combination/struct_combination.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/struct/struct_copy/struct_copy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/struct/struct_declare/struct_declare.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/struct/struct_extend/struct_extend.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/struct/struct_func/struct_func.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/struct/struct_method/struct_method.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/struct/struct_method_func/struct_method_func.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/struct/struct_value/struct_value.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/struct/syntacitc_sugar/syntacitc_sugar.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,54 +76,54 @@
       <recent name="$PROJECT_DIR$/src/http" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build strconv_format.go">
-    <configuration name="go build strconv_format.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build struct_method.go">
+    <configuration name="go build struct_anonymous.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/strconv/strconv_format/strconv_format.go" />
+      <filePath value="$PROJECT_DIR$/src/struct/struct_anonymous/struct_anonymous.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build strconv_parse.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build struct_combination.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/strconv/strconv_parse/strconv_parse.go" />
+      <filePath value="$PROJECT_DIR$/src/struct/struct_combination/struct_combination.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build string_compare.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build struct_extend.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/string/string_compare/string_compare.go" />
+      <filePath value="$PROJECT_DIR$/src/struct/struct_extend/struct_extend.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build string_trim.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build struct_method_func.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/string/string_trim/string_trim.go" />
+      <filePath value="$PROJECT_DIR$/src/struct/struct_method_func/struct_method_func.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build string_upper_lower.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build struct_method.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/string/string_upper_lower/string_upper_lower.go" />
+      <filePath value="$PROJECT_DIR$/src/struct/struct_method/struct_method.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build strconv_format.go" />
-        <item itemvalue="Go Build.go build strconv_parse.go" />
-        <item itemvalue="Go Build.go build string_compare.go" />
-        <item itemvalue="Go Build.go build string_trim.go" />
-        <item itemvalue="Go Build.go build string_upper_lower.go" />
+        <item itemvalue="Go Build.go build struct_method.go" />
+        <item itemvalue="Go Build.go build struct_method_func.go" />
+        <item itemvalue="Go Build.go build struct_extend.go" />
+        <item itemvalue="Go Build.go build struct_combination.go" />
+        <item itemvalue="Go Build.go build struct_anonymous.go" />
       </list>
     </recent_temporary>
   </component>
@@ -144,22 +152,22 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="695" y="257" key="EnvironmentVariablesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605104735317" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1605607856389">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1605780549144">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605607856389" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1605607856388">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605780549144" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1605780549144">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605607856388" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1605607856387">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605780549144" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1605780549143">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605607856387" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1605607856389">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605780549143" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1605780549144">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605607856389" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605780549144" />
     <state x="349" y="161" key="SettingsEditor" timestamp="1605608122132">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -168,5 +176,9 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="538" y="251" width="604" height="548" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605102680617" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1605772768130">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605772768130" />
   </component>
 </project>
