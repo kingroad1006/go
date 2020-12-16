@@ -20,17 +20,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9585db8a-6d50-4145-a01e-38bc8fc3222d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/struct/struct_anonymous/struct_anonymous.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/struct/struct_combination/struct_combination.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/struct/struct_copy/struct_copy.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/struct/struct_declare/struct_declare.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/struct/struct_extend/struct_extend.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/struct/struct_func/struct_func.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/struct/struct_method/struct_method.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/struct/struct_method_func/struct_method_func.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/struct/struct_value/struct_value.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/struct/syntacitc_sugar/syntacitc_sugar.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/array_len/array_len.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/array_loop/array_loop.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/array_value/array_value.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/multi_array/multi_array.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/client_get/client_get.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/client_post/client_post.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/file_server/file_server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/handle_function/handle_function.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/http_get/http_get.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/http_post/http_post.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/new_request/new_request.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/anonymous_field/anonymous_field.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/json_to_slice/json_to_slice.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/json_to_struct/json_to_struct.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/map_to_json/map_to_json.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/struct_field/struct_field.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/struct_to_json/struct_to_json.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map/map_declare/map_declare.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map/map_delete/map_delete.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map/map_value/map_value.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scanln/scanln.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slice/slice_append/slice_append.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slice/slice_append_copy/slice_append_copy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slice/slice_declare/slice_declare.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slice/slice_value/slice_value.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strconv/strconv_format/strconv_format.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strconv/strconv_parse/strconv_parse.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/string_compare/string_compare.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/string_loop/string_loop.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/string_retrieve/string_retrieve.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/string_split/string_split.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/string_trim/string_trim.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/string_upper_lower/string_upper_lower.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/struct/struct_anonymous/struct_anonymous.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/struct/struct_combination/struct_combination.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/struct/struct_copy/struct_copy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/struct/struct_declare/struct_declare.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/struct/struct_extend/struct_extend.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/struct/struct_func/struct_func.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/struct/struct_method/struct_method.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/struct/struct_method_func/struct_method_func.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/struct/struct_value/struct_value.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/struct/syntacitc_sugar/syntacitc_sugar.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/time/time_format/time_format.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +98,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/http" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
