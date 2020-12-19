@@ -20,51 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9585db8a-6d50-4145-a01e-38bc8fc3222d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/array_len/array_len.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/array_loop/array_loop.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/array_value/array_value.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/multi_array/multi_array.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/http/client_get/client_get.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/http/client_post/client_post.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/http/file_server/file_server.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/http/handle_function/handle_function.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/http/http_get/http_get.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/http/http_post/http_post.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/http/new_request/new_request.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/anonymous_field/anonymous_field.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/json_to_slice/json_to_slice.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/json_to_struct/json_to_struct.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/map_to_json/map_to_json.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/struct_field/struct_field.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/struct_to_json/struct_to_json.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map/map_declare/map_declare.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map/map_delete/map_delete.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map/map_value/map_value.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scanln/scanln.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/slice/slice_append/slice_append.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/slice/slice_append_copy/slice_append_copy.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/slice/slice_declare/slice_declare.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/slice/slice_value/slice_value.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strconv/strconv_format/strconv_format.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strconv/strconv_parse/strconv_parse.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/string_compare/string_compare.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/string_loop/string_loop.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/string_retrieve/string_retrieve.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/string_split/string_split.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/string_trim/string_trim.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/string_upper_lower/string_upper_lower.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/struct/struct_anonymous/struct_anonymous.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/struct/struct_combination/struct_combination.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/struct/struct_copy/struct_copy.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/struct/struct_declare/struct_declare.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/struct/struct_extend/struct_extend.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/struct/struct_func/struct_func.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/struct/struct_method/struct_method.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/struct/struct_method_func/struct_method_func.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/struct/struct_value/struct_value.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/struct/syntacitc_sugar/syntacitc_sugar.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/time/time_format/time_format.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,15 +66,7 @@
       <recent name="$PROJECT_DIR$/src/http" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build struct_method.go">
-    <configuration name="go build struct_anonymous.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/struct/struct_anonymous/struct_anonymous.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build study/array/array_len">
     <configuration name="go build struct_combination.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -151,13 +99,22 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build study/array/array_len" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/array/array_len/array_len.go" />
+      <package value="study/array/array_len" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build study/array/array_len" />
         <item itemvalue="Go Build.go build struct_method.go" />
         <item itemvalue="Go Build.go build struct_method_func.go" />
         <item itemvalue="Go Build.go build struct_extend.go" />
         <item itemvalue="Go Build.go build struct_combination.go" />
-        <item itemvalue="Go Build.go build struct_anonymous.go" />
       </list>
     </recent_temporary>
   </component>
@@ -186,22 +143,22 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="695" y="257" key="EnvironmentVariablesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605104735317" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1605780549144">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1608096960986">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605780549144" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1605780549144">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1608096960986" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1608096960985">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605780549144" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1605780549143">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1608096960985" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1608096960984">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605780549143" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1605780549144">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1608096960984" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1608096960985">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605780549144" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1608096960985" />
     <state x="349" y="161" key="SettingsEditor" timestamp="1605608122132">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
